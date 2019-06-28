@@ -12,6 +12,10 @@ because nextjs does not come with zero config for general features like
 * in style url
 * sub directory support
 
+#### Install dependencies
+
+`npm install`
+
 #### Run
 
 `npm run dev`
