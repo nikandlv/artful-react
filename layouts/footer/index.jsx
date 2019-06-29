@@ -40,11 +40,11 @@ export default function Footer() {
                     </ul>
                     <ul>
                     <li className="title">Contact</li>
-                    <a href="https://www.behance.net/elcan12"><li>Elcan Huseynaliyev Behance</li></a>
-                    <a href="https://www.behance.net/gallery/80148217/Interactive-ART-Agency-Free"><li>Elcan Huseynaliyev Project</li></a>
-                    <a href="https://nikandlv.ir"><li>Nikandlv</li></a>
-                    <a href="https://neoxus.ir"><li>Neoxus</li></a>
-                    <a href="https://github.com/nikandlv/artful-react"><li>Github</li></a>
+                    <a target="_blank" href="https://www.behance.net/elcan12"><li>Elcan Huseynaliyev Behance</li></a>
+                    <a target="_blank" href="https://www.behance.net/gallery/80148217/Interactive-ART-Agency-Free"><li>Elcan Huseynaliyev Project</li></a>
+                    <a target="_blank" href="https://nikandlv.ir"><li>Nikandlv</li></a>
+                    <a target="_blank" href="https://neoxus.ir"><li>Neoxus</li></a>
+                    <a target="_blank" href="https://github.com/nikandlv/artful-react"><li>Github</li></a>
                     </ul>
                 </div>
             </footer>
