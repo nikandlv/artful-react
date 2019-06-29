@@ -1,0 +1,65 @@
+.testimony-section
+    background: $primary
+    color: $white
+    padding: 4rem
+    padding-bottom: 10rem
+    position: relative
+    overflow: hidden
+    & h1
+        text-align: center
+        z-index: 1
+        position: relative
+    & p
+        display: block
+        margin: 5px auto
+        max-width: 40%
+        text-align: center
+        z-index: 1
+        position: relative
+        color: darken($white,10)
+    & .top-art
+        position: absolute
+        top: 0
+        right: 0
+    & .testimony-row
+        position: relative
+        margin-top: 75px
+        & .item
+            background: $white
+            width: 100%
+            min-height: 250px
+            max-width: 300px
+            display: block
+            margin: 0 auto
+            position: relative
+            border-radius: 4px
+            & p
+                color: black
+                max-width: 100%
+                padding: 1rem
+                color: lighten($black,50)
+                text-align: start
+                @extend .styled-font-curly;
+            & .card-actions
+                position: absolute
+                padding: 0 25px
+                box-sizing: border-box
+                display: flex
+                align-items: center
+                border-top: 1px solid darken($white,10)
+                bottom: 0
+                left: 0
+                width: 100%
+                height: 54px
+                & span
+                    color: $black
+                    margin: 0 10px
+                    font-size: 0.8rem
+                & img
+                    width: 38px
+                    height: 38px
+                    border-radius: 100%
+    .middle-art
+        position: absolute
+        left: -50px
+        top: -80px
