@@ -1,5 +1,6 @@
 const withSass = require('@zeit/next-sass')
-module.exports = withSass({
+const withCSS = require('@zeit/next-css')
+module.exports = withSass(withCSS({
     webpack: function (config) {
         config.module.rules.push({
             test: /\.(eot|woff|woff2|ttf)$/,
@@ -29,4 +30,4 @@ module.exports = withSass({
     }
     },
     assetPrefix: './',
-})
+}))
