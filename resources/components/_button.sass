@@ -1,0 +1,24 @@
+button
+    color: $white
+    background: $black
+    border: unset
+    font-weight: bold
+    outline: unset
+    padding: 10px 30px
+    margin: 0 5px
+    display: inline-flex
+    align-items: center
+    border-radius: 8px
+    transition: background-color 200ms
+    &.primary
+        background-color: $primary
+        &:hover
+            background-color: lighten($primary,5)
+    &.secondary
+        background-color: $secondary
+        &:hover
+            background-color: lighten($secondary,5)
+    & svg
+        margin-right: 8px
+        width: 16px
+        height: 16px
