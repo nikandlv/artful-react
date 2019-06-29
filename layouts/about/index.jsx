@@ -1,3 +1,5 @@
+import Art from "./art";
+
 export default function About() {
     return (
         <section className="about-section">
@@ -17,7 +19,7 @@ export default function About() {
                     <p className="subtitle">There are many variations of passages of Lorem Ipsum available</p>
                 </div>
             </div>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <Art />
         </section>
     )
 }
