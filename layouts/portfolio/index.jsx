@@ -8,32 +8,32 @@ export default function Portfolio() {
                     <div className="row center-xs portfolio-row">
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio1.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio1.png" alt="Portfolio item" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio2.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio2.png" alt="Portfolio item" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio3.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio3.png" alt="Portfolio item" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio4.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio4.png" alt="Portfolio item" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio5.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio5.png" alt="Portfolio item" />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-4">
                             <div className="image">
-                                <img src="/static/img/portfolio6.png" alt="Portfolio item" />
+                                <img src="./static/img/portfolio6.png" alt="Portfolio item" />
                             </div>
                         </div>
                     </div>
