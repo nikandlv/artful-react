@@ -3,6 +3,7 @@ import Header from '../layouts/header';
 import About from '../layouts/about';
 import Testimony from '../layouts/testimony';
 import Portfolio from '../layouts/portfolio';
+import Footer from '../layouts/footer';
 export default function Index() {
 	return (
 		  <Wrapper>
@@ -10,6 +11,7 @@ export default function Index() {
 			  <About />
 			  <Testimony />
 			  <Portfolio />
+			  <Footer />
 		  </Wrapper>
 
 	);
