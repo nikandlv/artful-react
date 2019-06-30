@@ -1,9 +1,10 @@
 import SendInput from "../../components/Input";
 import Art from "./art";
+import Decoration from "./decoration";
 
 export default function Footer() {
     return (
-        <section>
+        <section className="footer-section">
             <div className="subsrcibe-section">
                 <div className="row center-xs">
                     <Art />
@@ -53,6 +54,7 @@ export default function Footer() {
                 <span className="copyright">Designed with <p className="love">love</p> by <a target="_blank" href="https://www.behance.net/elcan12">Elcan Huseynaliyev</a></span>
                 <span className="copyright">Coded with <p className="love">love</p> by <a target="_blank" href="https://nikandlv.ir">Nikandlv</a></span>
             </div>
+            <Decoration />
         </section>
     )
 }
